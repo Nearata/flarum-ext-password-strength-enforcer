@@ -1,6 +1,6 @@
 {
     "name": "nearata/flarum-ext-password-strength-enforcer",
-    "description": "no desc",
+    "description": "Enforces a password strength level.",
     "keywords": [
         "flarum"
     ],

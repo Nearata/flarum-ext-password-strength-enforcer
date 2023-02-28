@@ -1,5 +1,11 @@
 nearata-password-strength-enforcer:
   admin:
-    my_cool_key: My Cool Key
-  forum:
-    my_cool_key: My Cool Key
+    settings:
+      strength:
+        label: Strength
+        help: "Medium is <strong>score >= 2</strong> and Strong is <strong>score >= 4</strong>"
+        options:
+          medium: Medium
+          strong: Strong
+validation:
+  zxcvbn: The :attribute is not strong enough.

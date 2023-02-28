@@ -24,3 +24,10 @@ composer require nearata/flarum-ext-password-strength-enforcer:"*"
 composer update nearata/flarum-ext-password-strength-enforcer:"*"
 php flarum cache:clear
 ```
+
+## Remove
+
+```sh
+composer remove nearata/flarum-ext-password-strength-enforcer
+php flarum cache:clear
+```
